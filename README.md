@@ -17,6 +17,7 @@ Supported fields that can be programmed:
 Additionally for the CP2102n:
   - Manufacturer string
   - Toggle between internal and external serial number
+    - Toggle with `-t 0` and set the serial as  `-S ABCD1234`, this will make it show as `/dev/tty.usbserial-ABCD1234`
   - Enable TX/RX led outputs
 
 # CAUTION
